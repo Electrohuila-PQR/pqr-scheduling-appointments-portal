@@ -6,7 +6,7 @@
  * Configuración general de la API
  */
 export const API_CONFIG = {
-  BASE_URL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1',
+  BASE_URL: process.env.NEXT_PUBLIC_API_URL || 'https://8papi9muvp.us-east-2.awsapprunner.com/api/v1',
   TIMEOUT: 30000, // 30 segundos
 } as const;
 

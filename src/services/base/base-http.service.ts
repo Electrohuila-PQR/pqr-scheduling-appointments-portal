@@ -3,7 +3,7 @@
  * Provides common HTTP methods and error handling for all domain services
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://8papi9muvp.us-east-2.awsapprunner.com/api/v1';
 
 export class BaseHttpService {
   protected baseUrl: string;
